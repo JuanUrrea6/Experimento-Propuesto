@@ -1,2 +1,2 @@
 # Experimento-Propuesto
-Todo lo correspondiente al proyecto final de laboratorio intermedio.
+Todo lo correspondiente al proyecto final de laboratorio intermedio, incluyendo documentos, simulaciones, presentaciones,etc...
