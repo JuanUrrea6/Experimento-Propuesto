@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.19)  29 SEP 2015 22:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.19)  9 OCT 2015 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -887,15 +887,9 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texmf/tex/latex/beamer/base/themes/theme/beamerthemeMadrid.sty
-Package: beamerthemeMadrid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(/usr/share/texmf/tex/latex/beamer/base/themes/theme/beamerthemeCambridgeUS.sty
+Package: beamerthemeCambridgeUS 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
-(/usr/share/texmf/tex/latex/beamer/base/themes/color/beamercolorthemewhale.sty
-Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/share/texmf/tex/latex/beamer/base/themes/color/beamercolorthemeorchid.sty
-Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
 (/usr/share/texmf/tex/latex/beamer/base/themes/inner/beamerinnerthemerounded.st
 y
 Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
@@ -903,6 +897,9 @@ Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemeinfolines.
 sty
 Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
+)
+(/usr/share/texmf/tex/latex/beamer/base/themes/color/beamercolorthemebeaver.sty
+Package: beamercolorthemebeaver 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )) (./Presentación.aux)
 \openout1 = `Presentación.aux'.
 
@@ -1072,40 +1069,83 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 12.
  (./Presentación.nav)
+Overfull \hbox (57.23676pt too wide) in paragraph at lines 12--12
+ [][][][]  
+ []
+
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 14.
 
+
+Overfull \hbox (57.23676pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (57.23676pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
-] [3
-
-] [4
-
-] [5
-
-] [6
+[2
 
 ]
+Overfull \hbox (57.23676pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[3
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (57.23676pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[4
+
+] <Diagrama.png, id=144, 361.35pt x 182.6825pt>
+File: Diagrama.png Graphic file (type png)
+ <use Diagrama.png>
+Package pdftex.def Info: Diagrama.png used on input line 66.
+(pdftex.def)             Requested size: 136.27615pt x 68.89601pt.
+
+Overfull \hbox (57.23676pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[5
+
+ <./Diagrama.png>]
+Overfull \hbox (57.23676pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[6
+
+] <Cuadrado.png, id=198, 1084.05pt x 578.16pt>
+File: Cuadrado.png Graphic file (type png)
+ <use Cuadrado.png>
+Package pdftex.def Info: Cuadrado.png used on input line 91.
+(pdftex.def)             Requested size: 187.3836pt x 99.93561pt.
+
+Overfull \hbox (57.23676pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [7
 
-] [8
-
-] [9
-
-] [10
-
-] <Montaje.png, id=290, 501.7947pt x 406.8801pt>
-File: Montaje.png Graphic file (type png)
-
-<use Montaje.png>
-Package pdftex.def Info: Montaje.png used on input line 55.
-(pdftex.def)             Requested size: 136.27615pt x 110.49857pt.
- [11
-
- <./Montaje.png (PNG copy)>]
+ <./Cuadrado.png>]
 \tf@nav=\write6
 \openout6 = `Presentación.nav'.
 
@@ -1115,11 +1155,11 @@ Package pdftex.def Info: Montaje.png used on input line 55.
 \tf@snm=\write8
 \openout8 = `Presentación.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (./Presentación.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `Presentación.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1127,24 +1167,33 @@ Package rerunfilecheck Info: File `Presentación.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 15935 strings out of 494985
- 294854 string characters out of 6180356
- 372706 words of memory out of 5000000
- 18748 multiletter control sequences out of 15000+600000
- 6063 words of font info for 22 fonts, out of 8000000 for 9000
+ 15993 strings out of 494985
+ 295825 string characters out of 6180356
+ 373635 words of memory out of 5000000
+ 18795 multiletter control sequences out of 15000+600000
+ 10858 words of font info for 40 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,16n,55p,402b,864s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on Presentación.pdf (11 pages, 118541 bytes).
+ 49i,17n,55p,405b,853s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b>
+Output written on Presentación.pdf (7 pages, 287581 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 24 named destinations out of 1000 (max. 500000)
- 72 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
